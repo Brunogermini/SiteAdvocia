@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>MG Advocacia </title>
+</head>
+
+<body>
+    <div class="caixa-superior">
+        <div class="cabecalho">
+            <h2 class="titulo-cabecalho"> MG Advocacia</h2>
+            <a href="#titulo-inferior" class="link-cabecalho">Sobre</a>
+            <a href="#titulo-meio" class="link-cabecalho">Serviços</a>
+            <a class="link-cabecalho" onclick="form()"> Contato</a>
+        </div>
+        <h1>Dra. Márcia Germini</h1>
+
+        <form id="formulario-contato" action="https://formsubmit.co/brunogermini@hotmail.com" method="POST">
+            <h3 class="titulo-formulario"> Entre em contato </h3>
+            <label>
+                Nome
+
+                <input type="text" name="Nome" placeholder="Digite seu nome" required />
+
+            </label>
+
+            <label>
+                Whatsapp
+
+                <input type="tel" name="telefone" placeholder="Digite seu Número" />
+            </label>
+
+
+            <label>
+                E-mail
+
+                <input type="email" name="email" placeholder="Digite seu E-mail" required />
+
+                <label>
+                    Fale Conosco</label>
+
+                <textarea name="info" placeholder="Qual sua dúvida?" required></textarea>
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+        </form>
+    </div>
+
+    <h2 id="titulo-meio">Nossos serviços</h2>
+
+    <div class="caixa-central">
+
+
+        <div class="card">
+            <h3 class="card1"> Criminal </h3>
+            <ul>
+                <li> Primeiro item da lista</li>
+                <li>Segundo item da lista</li>
+                <li> Terceiro item da lista</li>
+                <li>Quato item da lista</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="card1"> Civil </h3>
+            <ul>
+                <li> Primeiro item da lista</li>
+                <li>Segundo item da lista</li>
+                <li> Terceiro item da lista</li>
+                <li>Quato item da lista</li>
+            </ul>
+
+        </div>
+        <div class="card">
+            <h3 class="card1"> Penal </h3>
+            <ul>
+                <li> Primeiro item da lista</li>
+                <li>Segundo item da lista</li>
+                <li> Terceiro item da lista</li>
+                <li>Quato item da lista</li>
+            </ul>
+        </div>
+    </div>
+    <div class="caixa-inferior">
+        <h2 id="titulo-inferior">Sobre</h2>
+        <p class="paragrafo-inferior">
+            O objetivo de uma bibliografia é documentar o trabalho, mostrando que as opiniões que constam no trabalho
+            são sustentadas pelas fontes consultadas. A bibliografia
+            também remete para a catalogação sistemática das obras de um determinado autor ou área de
+            conhecimento.
+            A bibliografia deve aparecer no final do trabalho produzido com referência não só a livros como
+            também revistas, jornais, vídeos, sites da internet e qualquer outro recurso utilizado na pesquisa.
+            Por isso, no momento da pesquisa, é importante anotar alguns dados fundamentais para fazer a referência
+            bibliográfica.
+
+            É bastante comum em cursos universitários ter uma bibliografia que é sugerida pelo professor,
+            com o objetivo de ajudar o aluno a adquirir mais conhecimentos em determinadas áreas.
+            A referência bibliográfica é a identificação de cada obra consultada, geralmente seguindo normas adequadas a
+            cada caso. Normas são regras definidas para identificar a obra. No Brasil, o órgão responsável pela
+            normalização técnica é a ABNT (Associação Brasileira de Normas Técnicas).Grande Otelo (1915-1993) foi
+            um dos mais destacados atores brasileiros do século XX. Fez comédia, drama e crítica social em peças e
+            filmes.
+            Em parceria com Oscarito estrelou em grandes sucessos do cinema.
+
+            Grande Otelo, pseudônimo de Sebastião Bernardes de Souza Prata, nasceu em Uberlândia, Minas Gerais,
+            no dia 18 de outubro de 1915. Desde pequeno tinha atração pelas festas populares. Aos sete anos de idade
+            teve sua primeira experiência como ator ao participar da apresentação de um circo que passou em sua cidade.
+            Vestido de mulher, interpretando a esposa do palhaço arrancou risos da plateia.
+
+            Depis que perdeu o pai e vivia com a mãe alcoólatra, foi levado para São Paulo pela Companhia de
+            Teatro Mambembe dirigida por Abigail Parecis. Estudou no Liceu Coração de Jesus até a 3ª série do ensino
+            médio. Foi adotado pela família Gonçalves e ganhou o apelido de “Otelo”. O apelido surgiu na Companhia
+            Lírica Nacional, onde o jovem tomava aulas de canto lírico. O maestro julgava que quando ele crescesse
+            poderia cantar a ópera Otelo, de Verdi. Por sua pequena estatura recebeu o apelido de Pequeno Otelo, mas
+            depois, a crítica o apelidou de “Grande Otelo”.
+            Em 1926, com apenas 11 anos, ingressou na “Companhia Negra de Revista”,
+            composta exclusivamente por artistas negros, entre eles, Pixinguinha, que era o maestro,
+            o músico Donga e a atriz e cantora Rosa Negra. Em 1932 entrou para a “Companhia Jardel Jércolis”,
+            um dos pioneiros do teatro de revista. Com esta companhia chegou ao Rio de Janeiro, realizando seu sonho
+            de infância. Era um assíduo frequentador das noites cariocas, estava sempre na famosa gafieira Elite,
+            no bar Vermelho ou nos bares da Lapa.
+        </p>
+    </div>
+
+
+</body>
+
+
+<script>
+
+alert ("Seja Bem Vindo")
+
+    let formulario = document.getElementById("formulario-contato")
+
+    function form (){
+
+        formulario.className = "mostre-formulario"
+    }
+
+
+
+
+</script>
+
+</html>
