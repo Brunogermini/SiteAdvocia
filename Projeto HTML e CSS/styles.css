@@ -1,0 +1,170 @@
+/*
+background-imagem - coloca imagem de fundo 
+height-Altura
+Width-Largura
+vw-view width/ A Largura da tela dividido por 100
+vh- A altura da tela dividido por 100
+cm- centimetro
+px- Pixel
+font-size- tamanho do texto
+color - cor do texto
+font-family- troca a fonte do texto
+display - troca a forma que o elemento se comporta na tela ex: fica na mesma linha que outros elementos, ou sozinho
+border-radios - arredonda as bordas
+
+*/
+*{
+margin: 0;
+padding: 0 ;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+
+.caixa-superior{
+    background-image: url("./DEV.png"); 
+    background-size:cover ;
+    height: 90vh ;
+    
+}
+.cabecalho {
+padding-top: 25px;
+padding-left:35px ;
+font-size: 14px;
+color:white;  
+
+}
+.titulo-cabecalho{
+font-size: 24px;
+color:white;
+display:inline;
+ 
+}
+.link-cabecalho{
+    font: size 14px;
+    color:white;
+    display:inline;
+    margin-left:25px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+h1{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 350px;
+    margin-left: 35px;
+}
+form{
+    
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    padding: 25px;
+    margin-right: 35px;
+    position: relative;
+    bottom: 50px;
+}
+ .mostre-formulario{
+opacity: 1;
+
+ }
+
+input{
+    display: block;
+    background: white;
+    border:1px solid white ;
+    border-radius: 5px;
+    width: 250px;
+    height:40px ;
+    margin-bottom:20px;
+    padding-left: 10px;
+}
+textarea{
+    display: block; 
+    border:1px solid white ;
+    border-radius: 5px;
+    width: 250px;
+    height:80px ;
+    margin-bottom:20px;
+    padding-left: 10px;
+}
+.titulo-formulario{
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+label{
+    font-size: 14px;
+    color: black;
+}
+button{
+    width: 250px;
+    height:40px ;
+    background: green;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#titulo-meio{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    color: #252B42;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+.card{
+    background: white;
+    width: 300px;
+    border-radius: 5px;
+    border:1px solid #A9D6FF ;
+    
+}
+.card1{
+background: green;
+color: white;
+text-align: center;
+padding: 20px;
+border-radius: 10px 10px 0 0;
+
+}
+ul{
+padding:20px;
+}
+li{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.caixa-central{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.caixa-inferior{
+background-color: rgb(8, 8, 43);
+
+
+}
+#titulo-inferior{
+    
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+
+.paragrafo-inferior{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+    
+}
